@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="test.bwie.com.wzq_0831jinritoutiao.view.ChannelActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#f00">
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/returm"
+            android:background="@drawable/back_discover_normal_night"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="频道管理"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我的频道"
+        android:textSize="25dp"
+        android:textColor="#f00"/>
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/grid1"
+        android:padding="20dp"
+        android:numColumns="4"></GridView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="频道推荐"
+        android:textSize="25dp"
+        android:textColor="#f00"/>
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/grid2"
+        android:padding="20dp"
+        android:numColumns="4"></GridView>
+
+</LinearLayout>
